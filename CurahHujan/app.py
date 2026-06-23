@@ -11,7 +11,7 @@ from sklearn.cluster import KMeans
 
 st.set_page_config(
     page_title="Curah Hujan NTB · Dashboard",
-    page_icon="🌧️",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -326,7 +326,7 @@ df_all, wcss, cluster_mapping, centroids = run_kmeans(0)
 with st.sidebar:
     st.markdown("""
     <div class="sidebar-brand">
-        <h2>🌧️ BMKG · NTB</h2>
+        <h2> BMKG · NTB</h2>
         <p>Dashboard Curah Hujan</p>
     </div>
     """, unsafe_allow_html=True)
